@@ -10,9 +10,9 @@ import {
 const Text = () => {
   return (
     <C.Container>
-      <Item title="entradas" Icon={FaRegArrowAltCircleUp} />
-      <Item title="saidas" Icon={FaRegArrowAltCircleDown} />
-      <Item title="total" Icon={FaDollarSign} />
+      <Item title="Entradas" Icon={FaRegArrowAltCircleUp} value="1000" />
+      <Item title="Saidas" Icon={FaRegArrowAltCircleDown} value="1000" />
+      <Item title="Total" Icon={FaDollarSign} value="1000" /> 
     </C.Container>
   );
 };
