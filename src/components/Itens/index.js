@@ -1,7 +1,7 @@
 import React from "react";
 import * as C from "./styles";
 
-const Item = ({ title, Icon, value  }) => {
+const Item = ({ title, Icon, value }) => {
   return (
     <C.Container>
       <C.Header>
@@ -11,6 +11,6 @@ const Item = ({ title, Icon, value  }) => {
       <C.Total>{value}</C.Total>
     </C.Container>
   );
-}; 
- 
+};
+
 export default Item;

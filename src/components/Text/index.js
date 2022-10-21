@@ -7,13 +7,14 @@ import {
   FaDollarSign,
 } from "react-icons/fa";
 
-const Text = () => {
+const Text = ({ income, expense, total }) => {
   return (
     <C.Container>
-      <Item title="Entradas" Icon={FaRegArrowAltCircleUp} value="1000" />
-      <Item title="Saidas" Icon={FaRegArrowAltCircleDown} value="1000" />
-      <Item title="Total" Icon={FaDollarSign} value="1000" /> 
+      <Item title="Entradas" Icon={FaRegArrowAltCircleUp} value={income} />
+      <Item title="Saidas" Icon={FaRegArrowAltCircleDown} value={expense} />
+      <Item title="Total" Icon={FaDollarSign} value={total} />
     </C.Container>
   );
 };
+
 export default Text;
